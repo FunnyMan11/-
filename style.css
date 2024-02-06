@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+#waifu-container {
+    max-width: 600px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+#waifu-container:hover {
+    transform: scale(1.05);
+}
+
+#waifu-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#waifu-tags {
+    font-style: italic;
+    color: #888;
+    margin-top: 10px;
+}
+
+#waifu-tags a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#waifu-tags a:hover {
+    text-decoration: underline;
+}
+
+#next-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#next-button:hover {
+    background-color: #2980b9;
+}
+
+#controls {
+    position: absolute;
+    top: 85vh;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+#tag-select {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+}
